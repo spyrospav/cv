@@ -1,0 +1,1 @@
+Public repository for my CV (so that it can be used as a submodule in my webpage repository).
