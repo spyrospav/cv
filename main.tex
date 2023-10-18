@@ -1,9 +1,9 @@
 \documentclass[margin]{res}  
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
-\usepackage{paralist}
 \usepackage{comment}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
 
 \newcommand\myshade{85}
 \colorlet{mylinkcolor}{blue}
@@ -22,6 +22,8 @@
 \newcommand{\field}[2]{\noindent \textbf{#1} \hfill #2 \\}
 \newcommand{\uf}[2]{\noindent \textbf{#1} \hfill \url{#2} \\}
 \newcommand{\uff}[2]{\item[--] #1 \\ \url{#2}}
+\newcommand{\authorref}[1]{\underline {\textbf{#1}}}
+\newcommand{\authorme}{\authorref{Spyros Pavlatos}}
 
 % Increase text height
 \textheight=680pt
@@ -49,34 +51,44 @@
 
 \field{University of Pennsylvania}  {\emph{2022--Present}} 
 Ph.D. Computer Science
-\begin{compactitem}
+\begin{itemize}[nosep]
 \item[--] \emph{Advisor:} Rajeev Alur
 \item[--] \emph{Research Focus:} Verification for Distributed Systems
-\end{compactitem}
+\end{itemize}
  
 \field{National Technical University of Athens}  {\emph{2016--2022}} 
 Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engineering (ECE)
-\begin{compactitem}
-\item[--] \emph{Overall GPA:} 9.26/10 (15\textsuperscript{th} out of 318 students)
+\begin{itemize}[nosep]
+\item[--] \emph{Overall GPA:} 9.26/10 
 \item[--] \emph{Major:} Computer Science 
-\item[--] \emph{Thesis:} \href{http://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/18415/1/thesis.pdf}{``A Test Suite for Model Checking Persistent Memory Programs''}. \\
-\emph{Advisor:} Kostis Sagonas.
-\end{compactitem} 
+\item[--] \emph{Thesis:} \href{http://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/18415/1/thesis.pdf}{``A Test Suite for Model Checking Persistent Memory Programs''}. \emph{Advisor:} Kostis Sagonas.
+\end{itemize}
 
 \section{Experience}
 
 \textbf{\href{https://whitenoise.gr/}{White Noise} - Space Engineering Team} \hfill \emph{2017-2019}
-\begin{compactitem}
+\begin{itemize}[nosep]
 \item[--] Founding member
 \item[--] Competed in space engineering competitions for university students:
-\begin{compactitem}
+\begin{itemize}[nosep]
 \item \textit{Cansat in Greece 2018}. 
   Designed parts of electrical and sensors subsystems. 
   Responsible for social media.
 \item \textit{Cansat Competition 2019} by American Astronautical Society. 
   Designed telecommunications and data handling subsystems.
-\end{compactitem}
-\end{compactitem}
+\end{itemize}
+\end{itemize}
+
+\section{Publications}
+
+\begin{enumerate}[nosep, label={[\arabic*]}]  
+ 
+  \item Haoran Zhang, Konstantinos Kallas,  \authorme, Rajeev Alur, Sebastian Angel, Vincent Liu ``MuCache: A General Framework for Caching in Microservice Graphs''. \emph{Under Submission}.
+  %  \preprint{https://arxiv.org/abs/2205.13394} \code{https://github.com/papachristoumarios/dynamic-clearing} \poster{https://drive.google.com/file/d/1l0TCsoZNo3NoOOHsPSh1ofctXD4ivFir/view?usp=sharing}
+  %  \paper{https://dl.acm.org/doi/abs/10.1145/3543507.3583470}
+  %  \slides{https://drive.google.com/file/d/1ZZ6F6PFNsBjYKFyurkwM2IbenuzXJEAs/view?usp=share_link}
+% ...
+\end{enumerate}
 
 \section{Teaching \\ Experience}
 
@@ -97,7 +109,7 @@ Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engine
 
 \section{Technical \\ Skills}
 
-\field{Programming Languages}  {C/C++, Erlang, Haskell, Coq, JavaScript, Python, Go}
+\field{Programming Languages}  {C/C++, Erlang, Haskell, Coq, JavaScript, Python, SML} 
 \field{Operating Systems} {Windows, Linux}
 \field{Databases} {MySQL, MongoDB}
 \field{Version Control} {Git/Github}
@@ -106,7 +118,7 @@ Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engine
 
 \section{Honors \& \\ Awards} 
 
-\begin{compactitem}
+\begin{itemize}[nosep]
   \item[--] 
     \emph{Soloman M. Swaab Fellowship} - University of Pennsylvania.
 	\item[--] 
@@ -125,7 +137,7 @@ Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engine
     Panhellenic Physics Competition \emph{Aristotle 2016}.
     3\textsuperscript{rd} Prize of Excellence (Bronze Medal). 
     Ranked 25\textsuperscript{th} overall.
-\end{compactitem}
+\end{itemize}
 
 \section{Languages} Greek (native), English (C2), German (C1)
 
