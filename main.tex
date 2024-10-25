@@ -24,6 +24,8 @@
 \newcommand{\uff}[2]{\item[--] #1 \\ \url{#2}}
 \newcommand{\authorref}[1]{\underline {\textbf{#1}}}
 \newcommand{\authorme}{\authorref{Spyros Pavlatos}}
+\newcommand{\specialurl}[2]{\href {#2} {{{[#1]}}}}
+\newcommand{\paper}[1]{\specialurl{paper} {#1}}
 
 % Increase text height
 \textheight=680pt
@@ -49,7 +51,7 @@
 
 \section{Education}
 
-\field{University of Pennsylvania}  {\emph{2022--Present}} 
+\field{University of Pennsylvania}  {\emph{2022--2027 (expected)}} 
 Ph.D. Computer Science
 \begin{itemize}[nosep]
   \item[--] \emph{Advisor:} Vincent Liu
@@ -81,11 +83,12 @@ Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engine
 
 \section{Publications}
 
-\begin{enumerate}[nosep, label={[\arabic*]}]  
+\begin{enumerate}[nosep, label={[\arabic*]}]
+
+  \item \authorme, Xuting Liu, Yuhauo Liu, Vincent Liu ``$\lambda$-\textsc{trim}: Reducing Monetary and Performance Cost of Serverless Cold Starts with Cost-driven Application Debloating'' \emph{Under Submission}.
  
-  \item Haoran Zhang, Konstantinos Kallas,  \authorme, Rajeev Alur, Sebastian Angel, Vincent Liu ``MuCache: A General Framework for Caching in Microservice Graphs''. \emph{NSDI'24}.
+  \item Haoran Zhang, Konstantinos Kallas,  \authorme, Rajeev Alur, Sebastian Angel, Vincent Liu ``MuCache: A General Framework for Caching in Microservice Graphs''. \emph{NSDI'24}. \paper{https://www.cis.upenn.edu/~sga001/papers/mucache-nsdi24.pdf}
   %  \preprint{https://arxiv.org/abs/2205.13394} \code{https://github.com/papachristoumarios/dynamic-clearing} \poster{https://drive.google.com/file/d/1l0TCsoZNo3NoOOHsPSh1ofctXD4ivFir/view?usp=sharing}
-  %  \paper{https://dl.acm.org/doi/abs/10.1145/3543507.3583470}
   %  \slides{https://drive.google.com/file/d/1ZZ6F6PFNsBjYKFyurkwM2IbenuzXJEAs/view?usp=share_link}
 % ...
 \end{enumerate}
@@ -114,11 +117,11 @@ Integrated Masters (5-year joint degree, 300 ECTS) Electrical \& Computer Engine
 
 \section{Technical \\ Skills}
 
-\field{Programming Languages}  {C/C++, Erlang, Haskell, Coq, JavaScript, Python, SML} 
+\field{Programming Languages}  {C/C++, Rust, OCaml, Erlang, Java, JavaScript, Python, Go} 
 \field{Operating Systems} {Windows, Linux}
-\field{Databases} {MySQL, MongoDB}
+\field{Databases} {MySQL, MongoDB, memcached, Redis, RocksDB}
 \field{Version Control} {Git/Github}
-\field{Frameworks \& Tools} {OpenMP, matplotlib, NumPy, Pytorch, LLVM, \textsc{PropEr}}
+\field{Frameworks \& Tools} {OpenMP, Pytorch, LLVM, frama-c, TLA+, \textsc{PropEr}}
 \field{Typesetting} {\LaTeX}
 
 \section{Honors \& \\ Awards} 
