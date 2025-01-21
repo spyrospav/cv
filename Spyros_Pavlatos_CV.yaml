@@ -1,0 +1,243 @@
+cv:
+  name: Spyros Pavlatos
+  location: Philadelphia, PA
+  email: pavlatos@seas.upenn.edu
+  phone: tel:+1 (215) 980-7610
+  social_networks:
+    - network: LinkedIn
+      username: spyridon-pavlatos
+    - network: GitHub
+      username: spyrospav
+  sections:
+    education:
+      - institution: University of Pennsylvania
+        area: Computer and Information Science
+        degree: PhD
+        start_date: 2022-08
+        end_date: present
+        highlights:
+          - '*Advisor*: Vincent Liu'
+          - Research on microservices and serverless computing by blending 
+            ideas from Distributed Systems, Programming Languages, and Formal Methods.
+      - institution: National Technical University of Athens
+        area: Electrical and Computer Computer Engineering
+        degree: "MEng"
+        start_date: 2016-10
+        end_date: 2022-07
+        highlights:
+          - '*GPA*: 9.26/10'
+          - '*Thesis*: [A Test Suite for Model Checking Persistent Memory Programs](http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/18415)
+            *Advisor*: Kostis Sagonas'
+    experience:
+      - company: Univesity of Pennsylvania
+        position: Teaching Assistant
+        location: Philadelphia, PA
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - '*Courses*: Software Analysis, Compilers'
+      - company: National Technical University of Athens
+        position: Teaching Assistant
+        location: Athens, Greece
+        start_date: 2020
+        end_date: 2021
+        highlights:
+          - '*Courses*: Introduction to Programming, Programming Techniques'
+      - company: White Noise NTUA
+        position: Telecommunications Engineer
+        location: Athens, Greece
+        start_date: 2017
+        end_date: 2019
+        highlights:
+          - Founding member of the space engineering team
+          - Member of [project Drillsat](https://whitenoisentua.gr/drillsat.html) and 
+            [project Daedalus](https://whitenoisentua.gr/daedalus.html) for which I 
+            designed the telecommunications subsystems and data handling protocols.
+    projects:
+      - name: 'λ-trim Debloater'
+        start_date: 2024
+        end_date: present
+        highlights:
+          - Designed a debloating algorithm that leverages established dynamic
+            analysis techniques and a cost model to optimize serverless applications.
+          - Implemented the algorithm in a tool that can be used to debloat Python
+            and serverless applications and achieved up to 20% reduction in cold start
+            time and cost when deployed on AWS Lambda.
+          - Actively maintanining the open-source version of the tool.
+        summary: Debloater for Python and serverless applications
+      - name: '[MuCache](https://github.com/eniac/mucache)'
+        start_date: 2022
+        end_date: 2023
+        highlights:
+          - Implemented various applications to test and evaluate the proposed framework.
+          - Verfiied the correctness of the caching framework with a pen-and-paper proof.
+        summary: Caching framework for microservices
+      - name: '[PM-Benchmarks](https://github.com/spyrospav/pm-benchmarks)'
+        start_date: 2021
+        end_date: 2022
+        highlights:
+          - Developed a test suite consisting of litmus tests and complex data structures
+            for model checking persistent memory programs under the Px86 memory persistency 
+            model.
+          - Tested the state-of-the-art model checker [GenMC](https://github.com/MPI-SWS/genmc)
+            against the test suite and reported some critical internal bugs in the tool.
+        summary: Test suite for model checking persistent memory programs
+    publications:
+      - title: 'λ-trim: Reducing Monetary and Performance Cost of Serverless Cold Starts with Cost-driven Application Debloating'
+        authors:
+          - Spyros Pavlatos
+          - Xuting Liu
+          - Yuhao Liu
+          - Vincent Liu
+        journal: Under Submission
+      - title: 'MuCache: A General Framework for Caching in Microservice Graphs'
+        authors:
+          - Haoran Zhang
+          - Konstantinos Kallas
+          - Spyros Pavlatos
+          - Rajeev Alur
+          - Yuhao Liu
+          - Vincent Liu
+        journal: NSDI'24
+    skills:
+      - label: Programming
+        details: C/C++, Rust, OCaml, Erlang, Python, Go, JavaScript
+      - label: Operating Systems / Platforms
+        details: Windows, Linux, AWS, GCP
+      - label: Databases
+        details: MySQL, MongoDB, RocksDB, Redis, memcached
+      - label: Frameworks & Tools
+        details: LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3
+      - label: Miscellaneous
+        details: LaTeX, Git/Github
+    honors/awards:
+      - bullet: '**Soloman M. Swaab Fellowship** - University of Pennsylvania'
+      - bullet: '**1st Prize in Cansat in Greece 2018** space engineering competition (universities level).'
+      - bullet: '**IEEEXtreme programming competitions**. Ranked **94/5500** (15.0), **99/3700** (14.0) and **184/4000** (13.0) worldwide.'
+      - bullet: '**Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall'
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: black
+    name: black
+    connections: black
+    section_titles: black
+    links: '#004f90'
+    last_updated_date_and_page_numbering: grey
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_size: 20pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.5cm
+    vertical_space_between_connections_and_first_section: 0.5cm
+    horizontal_space_between_connections: 0.3cm
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1em
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.2cm
+    horizontal_space_between_bullet_and_highlight: 0.4em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**\n*DEGREE
+        in AREA*"
+      degree_column_width: 1cm
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "*LOCATION*\n*DATE*"
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "*LOCATION*\n*DATE*"
+    experience_entry:
+      main_column_first_row_template: "**POSITION**\n*COMPANY*"
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: "*LOCATION*\n*DATE*"
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
+      main_column_second_row_without_journal_template: "AUTHORS\n\
+        URL"
+      main_column_second_row_without_url_template: "AUTHORS\n\
+        JOURNAL"
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-01-19'
+  bold_keywords: []
