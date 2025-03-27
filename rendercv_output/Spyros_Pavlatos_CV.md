@@ -75,7 +75,7 @@
 
 # Skills
 
-- Programming: C/C++, Rust, OCaml, Erlang, Python, Go, JavaScript
+- Programming: C/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript
 - Operating Systems / Platforms: Windows, Linux, AWS, GCP
 - Databases: MySQL, MongoDB, RocksDB, Redis, memcached
 - Frameworks & Tools: LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3
@@ -86,3 +86,22 @@
 - **1st Prize in Cansat in Greece 2018** space engineering competition (universities level).
 - **IEEEXtreme programming competitions**. Ranked **94/5500** (15.0), **99/3700** (14.0) and **184/4000** (13.0) worldwide.
 - **Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall
+# Leadership and Outreach
+
+- **Penn CIS PhD Mentorship Program Organizer** (2023-present).
+- **Invited Panelist for Penn CIS Visit Days** (2023, 2024, 2025).
+- **Computer and Information Science Doctoral Association ([CISDA](https://penn-cisda.github.io/))**. Served in the Dean's Advisory Board (2022-2023) and as a CISDA chair (2023-2025).
+# Travel Funding
+
+## NSDI 2025 Student Grant
+
+- 2025
+
+## Summer School on Formal Techniques Funding
+
+- 2023
+
+## Programming Languages Mentoring Workshop at PLDI 2022 - Student Grant
+
+- 2022
+

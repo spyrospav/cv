@@ -101,7 +101,7 @@ cv:
         journal: NSDI'24
     skills:
       - label: Programming
-        details: C/C++, Rust, OCaml, Erlang, Python, Go, JavaScript
+        details: C/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript
       - label: Operating Systems / Platforms
         details: Windows, Linux, AWS, GCP
       - label: Databases
@@ -115,6 +115,17 @@ cv:
       - bullet: '**1st Prize in Cansat in Greece 2018** space engineering competition (universities level).'
       - bullet: '**IEEEXtreme programming competitions**. Ranked **94/5500** (15.0), **99/3700** (14.0) and **184/4000** (13.0) worldwide.'
       - bullet: '**Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall'
+    leadership_and_outreach:
+      - bullet: '**Penn CIS PhD Mentorship Program Organizer** (2023-present).'
+      - bullet: '**Invited Panelist for Penn CIS Visit Days** (2023, 2024, 2025).'
+      - bullet: '**Computer and Information Science Doctoral Association ([CISDA](https://penn-cisda.github.io/))**. Served in the Dean''s Advisory Board (2022-2023) and as a CISDA chair (2023-2025).'
+    travel_funding:
+      - name: 'NSDI 2025 Student Grant'
+        date: 2025
+      - name: 'Summer School on Formal Techniques Funding'
+        date: 2023
+      - name: 'Programming Languages Mentoring Workshop at PLDI 2022 - Student Grant'
+        date: 2022
 design:
   theme: sb2nov
   page:
@@ -135,14 +146,14 @@ design:
   text:
     font_family: New Computer Modern
     font_size: 10pt
-    leading: 0.6em
+    leading: 0.5em
     alignment: justified
     date_and_location_column_alignment: right
   links:
     underline: false
     use_external_link_icon: true
   header:
-    name_font_size: 20pt
+    name_font_size: 16pt
     name_bold: true
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.5cm
@@ -153,7 +164,7 @@ design:
     alignment: center
   section_titles:
     type: with-parial-line
-    font_size: 1.4em
+    font_size: 1.3em
     bold: true
     small_caps: false
     line_thickness: 0.5pt
@@ -164,7 +175,7 @@ design:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1em
+    vertical_space_between_entries: 0.5em
     allow_page_break_in_entries: true
     short_second_row: false
     show_time_spans_in: []

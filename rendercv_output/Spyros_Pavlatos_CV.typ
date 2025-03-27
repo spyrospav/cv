@@ -6,7 +6,7 @@
 #let locale-catalog-last-updated-date-style = "Last updated in Jan 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.3em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -15,20 +15,20 @@
 #let design-colors-links = rgb(0, 79, 144)
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.3em
 #let design-section-titles-type = "with-parial-line"
 #let design-section-titles-vertical-space-above = 0.4cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = true
 #let design-text-font-size = 10pt
-#let design-text-leading = 0.6em
+#let design-text-leading = 0.5em
 #let design-text-font-family = "New Computer Modern"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
-#let design-header-name-font-size = 20pt
+#let design-header-name-font-size = 16pt
 #let design-header-name-bold = true
 #let design-header-vertical-space-between-name-and-connections = 0.5cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.5cm
@@ -42,7 +42,7 @@
 #let design-highlights-left-margin = 0.4cm
 #let design-highlights-vertical-space-between-highlights = 0.2cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.4em
-#let design-entries-vertical-space-between-entries = 1em
+#let design-entries-vertical-space-between-entries = 0.5em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
@@ -640,7 +640,7 @@
 == Skills
 
 #one-col-entry(
-  content: [#[*Programming:*] C/C++, Rust, OCaml, Erlang, Python, Go, JavaScript]
+  content: [#[*Programming:*] C/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -677,5 +677,68 @@
 #one-col-entry(
   content: [- #[*Bronze Medal in the Panhellenic Physics Competition Aristotle 2016*]. Ranked 25th overall],
 )
+
+
+== Leadership and Outreach
+
+#one-col-entry(
+  content: [- #[*Penn CIS PhD Mentorship Program Organizer*] \(2023-present\).],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #[*Invited Panelist for Penn CIS Visit Days*] \(2023, 2024, 2025\).],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #[*Computer and Information Science Doctoral Association \(#link("https://penn-cisda.github.io/")[CISDA]\)*]. Served in the Dean's Advisory Board \(2022-2023\) and as a CISDA chair \(2023-2025\).],
+)
+
+
+== Travel Funding
+
+#two-col-entry(
+  left-content: [
+    #[*NSDI 2025 Student Grant*]
+  ],
+  right-content: [
+    #[_2025_]
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #[*Summer School on Formal Techniques Funding*]
+  ],
+  right-content: [
+    #[_2023_]
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #[*Programming Languages Mentoring Workshop at PLDI 2022 - Student Grant*]
+  ],
+  right-content: [
+    #[_2022_]
+  ],
+)
+#one-col-entry(
+  content: [
+    
+  ],
+)
+
 
 
