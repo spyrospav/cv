@@ -29,6 +29,25 @@ cv:
           - '*Thesis*: [A Test Suite for Model Checking Persistent Memory Programs](http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/18415)
             *Advisor*: Kostis Sagonas'
     experience:
+      - company: Amazon Web Services - DBS Redshift
+        position: Software Development Engineer Intern
+        location: East Palo Alto, CA
+        start_date: 2025-05
+        end_date: 2025-08
+        highlights:
+          - Implemented automatic background conversion of Interleaved Sortkey
+            (ISK) tables.
+      - company: White Noise NTUA
+        position: Telecommunications Engineer
+        location: Athens, Greece
+        start_date: 2017
+        end_date: 2019
+        highlights:
+          - Founding member of the space engineering team
+          - Member of [project Drillsat](https://whitenoisentua.gr/drillsat.html) and 
+            [project Daedalus](https://whitenoisentua.gr/daedalus.html) for which I 
+            designed the telecommunications subsystems and data handling protocols.
+    teaching_experience:
       - company: Univesity of Pennsylvania
         position: Teaching Assistant
         location: Philadelphia, PA
@@ -43,16 +62,6 @@ cv:
         end_date: 2021
         highlights:
           - '*Courses*: Introduction to Programming, Programming Techniques'
-      - company: White Noise NTUA
-        position: Telecommunications Engineer
-        location: Athens, Greece
-        start_date: 2017
-        end_date: 2019
-        highlights:
-          - Founding member of the space engineering team
-          - Member of [project Drillsat](https://whitenoisentua.gr/drillsat.html) and 
-            [project Daedalus](https://whitenoisentua.gr/daedalus.html) for which I 
-            designed the telecommunications subsystems and data handling protocols.
     projects:
       - name: 'λ-trim Debloater'
         start_date: 2024
@@ -83,13 +92,13 @@ cv:
             against the test suite and reported some critical internal bugs in the tool.
         summary: Test suite for model checking persistent memory programs
     publications:
-      - title: 'λ-trim: Reducing Monetary and Performance Cost of Serverless Cold Starts with Cost-driven Application Debloating'
+      - title: 'λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating'
         authors:
           - Spyros Pavlatos
           - Xuting Liu
           - Yuhao Liu
           - Vincent Liu
-        journal: Under Submission
+        journal: ASPLOS'25
       - title: 'MuCache: A General Framework for Caching in Microservice Graphs'
         authors:
           - Haoran Zhang

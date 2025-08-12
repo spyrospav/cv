@@ -23,6 +23,21 @@
 
 # Experience
 
+## Amazon Web Services - DBS Redshift, Software Development Engineer Intern
+
+- May 2025 – Aug 2025
+- East Palo Alto, CA
+- Implemented automatic background conversion of Interleaved Sortkey (ISK) tables.
+
+## White Noise NTUA, Telecommunications Engineer
+
+- 2017 – 2019
+- Athens, Greece
+- Founding member of the space engineering team
+- Member of [project Drillsat](https://whitenoisentua.gr/drillsat.html) and [project Daedalus](https://whitenoisentua.gr/daedalus.html) for which I designed the telecommunications subsystems and data handling protocols.
+
+# Teaching Experience
+
 ## Univesity of Pennsylvania, Teaching Assistant
 
 - 2023 – 2024
@@ -34,13 +49,6 @@
 - 2020 – 2021
 - Athens, Greece
 - *Courses*: Introduction to Programming, Programming Techniques
-
-## White Noise NTUA, Telecommunications Engineer
-
-- 2017 – 2019
-- Athens, Greece
-- Founding member of the space engineering team
-- Member of [project Drillsat](https://whitenoisentua.gr/drillsat.html) and [project Daedalus](https://whitenoisentua.gr/daedalus.html) for which I designed the telecommunications subsystems and data handling protocols.
 
 # Projects
 
@@ -65,9 +73,9 @@
 
 # Publications
 
-## λ-trim: Reducing Monetary and Performance Cost of Serverless Cold Starts with Cost-driven Application Debloating 
+## λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating 
 - Spyros Pavlatos, Xuting Liu, Yuhao Liu, Vincent Liu
-- Under Submission
+- ASPLOS'25
 
 ## MuCache: A General Framework for Caching in Microservice Graphs 
 - Haoran Zhang, Konstantinos Kallas, Spyros Pavlatos, Rajeev Alur, Yuhao Liu, Vincent Liu

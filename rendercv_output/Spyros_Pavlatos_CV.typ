@@ -458,18 +458,18 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #[*University of Pennsylvania*]
+    #strong[University of Pennsylvania]
 
-#[_PhD in Computer and Information Science_]
+#emph[PhD in Computer and Information Science]
   ],
   right-content: [
-    #[_Aug 2022 – present_]
+    #emph[Aug 2022 – present]
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#[_Advisor_]: Vincent Liu],[Research on microservices and serverless computing by blending ideas from Distributed Systems, Programming Languages, and Formal Methods.],)
+    #v(design-highlights-top-margin);#highlights([#emph[Advisor]: Vincent Liu],[Research on microservices and serverless computing by blending ideas from Distributed Systems, Programming Languages, and Formal Methods.],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -481,18 +481,18 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #[*National Technical University of Athens*]
+    #strong[National Technical University of Athens]
 
-#[_MEng in Electrical and Computer Computer Engineering_]
+#emph[MEng in Electrical and Computer Computer Engineering]
   ],
   right-content: [
-    #[_Oct 2016 – July 2022_]
+    #emph[Oct 2016 – July 2022]
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#[_GPA_]: 9.26/10],[#[_Thesis_]: #link("http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/18415")[A Test Suite for Model Checking Persistent Memory Programs] #[_Advisor_]: Kostis Sagonas],)
+    #v(design-highlights-top-margin);#highlights([#emph[GPA]: 9.26\/10],[#emph[Thesis]: #link("http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/18415")[A Test Suite for Model Checking Persistent Memory Programs] #emph[Advisor]: Kostis Sagonas],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -506,52 +506,33 @@
 
 #two-col-entry(
   left-content: [
-    #[*Teaching Assistant*]
+    #strong[Software Development Engineer Intern]
 
-#[_Univesity of Pennsylvania_]
+#emph[Amazon Web Services - DBS Redshift]
   ],
   right-content: [
-    #[_Philadelphia, PA_]
+    #emph[East Palo Alto, CA]
 
-#[_2023 – 2024_]
+#emph[May 2025 – Aug 2025]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([#[_Courses_]: Software Analysis, Compilers],)
+    #v(design-highlights-top-margin);#highlights([Implemented automatic background conversion of Interleaved Sortkey \(ISK\) tables.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #[*Teaching Assistant*]
+    #strong[Telecommunications Engineer]
 
-#[_National Technical University of Athens_]
+#emph[White Noise NTUA]
   ],
   right-content: [
-    #[_Athens, Greece_]
+    #emph[Athens, Greece]
 
-#[_2020 – 2021_]
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([#[_Courses_]: Introduction to Programming, Programming Techniques],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #[*Telecommunications Engineer*]
-
-#[_White Noise NTUA_]
-  ],
-  right-content: [
-    #[_Athens, Greece_]
-
-#[_2017 – 2019_]
+#emph[2017 – 2019]
   ],
 )
 #one-col-entry(
@@ -562,14 +543,55 @@
 
 
 
+== Teaching Experience
+
+#two-col-entry(
+  left-content: [
+    #strong[Teaching Assistant]
+
+#emph[Univesity of Pennsylvania]
+  ],
+  right-content: [
+    #emph[Philadelphia, PA]
+
+#emph[2023 – 2024]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([#emph[Courses]: Software Analysis, Compilers],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Teaching Assistant]
+
+#emph[National Technical University of Athens]
+  ],
+  right-content: [
+    #emph[Athens, Greece]
+
+#emph[2020 – 2021]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([#emph[Courses]: Introduction to Programming, Programming Techniques],)
+  ],
+)
+
+
+
 == Projects
 
 #two-col-entry(
   left-content: [
-    #[*λ-trim Debloater*]
+    #strong[λ-trim Debloater]
   ],
   right-content: [
-    #[_2024 – present_]
+    #emph[2024 – present]
   ],
 )
 #one-col-entry(
@@ -583,10 +605,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://github.com/eniac/mucache")[*MuCache*]
+    #link("https://github.com/eniac/mucache")[#strong[MuCache]]
   ],
   right-content: [
-    #[_2022 – 2023_]
+    #emph[2022 – 2023]
   ],
 )
 #one-col-entry(
@@ -600,10 +622,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://github.com/spyrospav/pm-benchmarks")[*PM-Benchmarks*]
+    #link("https://github.com/spyrospav/pm-benchmarks")[#strong[PM-Benchmarks]]
   ],
   right-content: [
-    #[_2021 – 2022_]
+    #emph[2021 – 2022]
   ],
 )
 #one-col-entry(
@@ -619,16 +641,16 @@
 == Publications
 
 #one-col-entry(content:[
-  #[*λ-trim: Reducing Monetary and Performance Cost of Serverless Cold Starts with Cost-driven Application Debloating*]
+  #strong[λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating]
 
   #v(-design-text-leading)
   #v(design-highlights-top-margin);Spyros Pavlatos, Xuting Liu, Yuhao Liu, Vincent Liu
 
-#v(design-highlights-top-margin - design-text-leading)Under Submission])
+#v(design-highlights-top-margin - design-text-leading)ASPLOS'25])
 
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(content:[
-  #[*MuCache: A General Framework for Caching in Microservice Graphs*]
+  #strong[MuCache: A General Framework for Caching in Microservice Graphs]
 
   #v(-design-text-leading)
   #v(design-highlights-top-margin);Haoran Zhang, Konstantinos Kallas, Spyros Pavlatos, Rajeev Alur, Yuhao Liu, Vincent Liu
@@ -640,57 +662,57 @@
 == Skills
 
 #one-col-entry(
-  content: [#[*Programming:*] C/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript]
+  content: [#strong[Programming:] C\/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Operating Systems / Platforms:*] Windows, Linux, AWS, GCP]
+  content: [#strong[Operating Systems \/ Platforms:] Windows, Linux, AWS, GCP]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Databases:*] MySQL, MongoDB, RocksDB, Redis, memcached]
+  content: [#strong[Databases:] MySQL, MongoDB, RocksDB, Redis, memcached]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Frameworks & Tools:*] LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3]
+  content: [#strong[Frameworks & Tools:] LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Miscellaneous:*] LaTeX, Git/Github]
+  content: [#strong[Miscellaneous:] LaTeX, Git\/Github]
 )
 
 
-== Honors/awards
+== Honors\/awards
 
 #one-col-entry(
-  content: [- #[*Soloman M. Swaab Fellowship*] - University of Pennsylvania],
+  content: [- #strong[Soloman M. Swaab Fellowship] - University of Pennsylvania],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #[*1st Prize in Cansat in Greece 2018*] space engineering competition \(universities level\).],
+  content: [- #strong[1st Prize in Cansat in Greece 2018] space engineering competition \(universities level\).],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #[*IEEEXtreme programming competitions*]. Ranked #[*94/5500*] \(15.0\), #[*99/3700*] \(14.0\) and #[*184/4000*] \(13.0\) worldwide.],
+  content: [- #strong[IEEEXtreme programming competitions]. Ranked #strong[94\/5500] \(15.0\), #strong[99\/3700] \(14.0\) and #strong[184\/4000] \(13.0\) worldwide.],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #[*Bronze Medal in the Panhellenic Physics Competition Aristotle 2016*]. Ranked 25th overall],
+  content: [- #strong[Bronze Medal in the Panhellenic Physics Competition Aristotle 2016]. Ranked 25th overall],
 )
 
 
 == Leadership and Outreach
 
 #one-col-entry(
-  content: [- #[*Penn CIS PhD Mentorship Program Organizer*] \(2023-present\).],
+  content: [- #strong[Penn CIS PhD Mentorship Program Organizer] \(2023-present\).],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #[*Invited Panelist for Penn CIS Visit Days*] \(2023, 2024, 2025\).],
+  content: [- #strong[Invited Panelist for Penn CIS Visit Days] \(2023, 2024, 2025\).],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [- #[*Computer and Information Science Doctoral Association \(#link("https://penn-cisda.github.io/")[CISDA]\)*]. Served in the Dean's Advisory Board \(2022-2023\) and as a CISDA chair \(2023-2025\).],
+  content: [- #strong[Computer and Information Science Doctoral Association \(#link("https://penn-cisda.github.io/")[CISDA]\)]. Served in the Dean's Advisory Board \(2022-2023\) and as a CISDA chair \(2023-2025\).],
 )
 
 
@@ -698,10 +720,10 @@
 
 #two-col-entry(
   left-content: [
-    #[*NSDI 2025 Student Grant*]
+    #strong[NSDI 2025 Student Grant]
   ],
   right-content: [
-    #[_2025_]
+    #emph[2025]
   ],
 )
 #one-col-entry(
@@ -713,10 +735,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #[*Summer School on Formal Techniques Funding*]
+    #strong[Summer School on Formal Techniques Funding]
   ],
   right-content: [
-    #[_2023_]
+    #emph[2023]
   ],
 )
 #one-col-entry(
@@ -728,10 +750,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #[*Programming Languages Mentoring Workshop at PLDI 2022 - Student Grant*]
+    #strong[Programming Languages Mentoring Workshop at PLDI 2022 - Student Grant]
   ],
   right-content: [
-    #[_2022_]
+    #emph[2022]
   ],
 )
 #one-col-entry(
