@@ -63,7 +63,7 @@ cv:
         highlights:
           - '*Courses*: Introduction to Programming, Programming Techniques'
     projects:
-      - name: 'λ-trim Debloater'
+      - name: '[λ-trim Debloater](https://github.com/eniac/lambda-trim)'
         start_date: 2024
         end_date: present
         highlights:

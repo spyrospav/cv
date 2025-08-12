@@ -588,7 +588,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[λ-trim Debloater]
+    #link("https://github.com/eniac/lambda-trim")[#strong[λ-trim Debloater]]
   ],
   right-content: [
     #emph[2024 – present]

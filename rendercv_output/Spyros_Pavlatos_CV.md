@@ -52,7 +52,7 @@
 
 # Projects
 
-## λ-trim Debloater
+## [λ-trim Debloater](https://github.com/eniac/lambda-trim)
 
 - 2024 – present
 - Designed a debloating algorithm that leverages established dynamic analysis techniques and a cost model to optimize serverless applications.
