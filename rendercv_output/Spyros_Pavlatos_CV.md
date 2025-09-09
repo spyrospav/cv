@@ -91,6 +91,7 @@
 # Honors/awards
 
 - **Soloman M. Swaab Fellowship** - University of Pennsylvania
+- **Gerondelis Foundation Scholarship** - Graduate Scholarship
 - **1st Prize in Cansat in Greece 2018** space engineering competition (universities level).
 - **IEEEXtreme programming competitions**. Ranked **94/5500** (15.0), **99/3700** (14.0) and **184/4000** (13.0) worldwide.
 - **Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall

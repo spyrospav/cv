@@ -689,6 +689,10 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
+  content: [- #strong[Gerondelis Foundation Scholarship] - Graduate Scholarship],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
   content: [- #strong[1st Prize in Cansat in Greece 2018] space engineering competition \(universities level\).],
 )
 #v(design-entries-vertical-space-between-entries)
