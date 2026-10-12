@@ -35,7 +35,7 @@ cv:
         start_date: 2026-05
         end_date: 2026-08
         highlights:
-          - Photon - Query Engine team.
+          - Photon \- Query Engine team.
           - Research on agentic code generation for query engines.
       - company: Amazon Web Services - DBS Redshift
         position: Software Development Engineer Intern
@@ -188,95 +188,132 @@ design:
     bottom_margin: 1.5cm
     left_margin: 1.5cm
     right_margin: 1.5cm
-    show_page_numbering: true
-    show_last_updated_date: true
+    show_footer: true
+    show_top_note: true
   colors:
-    text: black
+    body: black
     name: black
+    headline: black
     connections: black
     section_titles: black
     links: '#004f90'
-    last_updated_date_and_page_numbering: grey
-  text:
-    font_family: New Computer Modern
-    font_size: 10pt
-    leading: 0.5em
+    footer: grey
+    top_note: grey
+  typography:
+    line_spacing: 0.5em
     alignment: justified
     date_and_location_column_alignment: right
+    font_family:
+      body: New Computer Modern
+      name: New Computer Modern
+      headline: New Computer Modern
+      connections: New Computer Modern
+      section_titles: New Computer Modern
+    font_size:
+      body: 10pt
+      name: 16pt
+      headline: 10pt
+      connections: 10pt
+      section_titles: 1.3em
+    small_caps:
+      name: false
+      headline: false
+      connections: false
+      section_titles: false
+    bold:
+      name: true
+      headline: false
+      connections: false
+      section_titles: true
   links:
     underline: false
-    use_external_link_icon: true
+    show_external_link_icon: true
   header:
-    name_font_size: 16pt
-    name_bold: true
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.5cm
-    vertical_space_between_connections_and_first_section: 0.5cm
-    horizontal_space_between_connections: 0.3cm
-    separator_between_connections: ''
-    use_icons_for_connections: true
     alignment: center
+    photo_width: 3.5cm
+    space_below_name: 0.5cm
+    space_below_connections: 0.5cm
+    connections:
+      phone_number_format: national
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ''
+      space_between_connections: 0.3cm
   section_titles:
-    type: with-full-line
-    font_size: 1.3em
-    bold: true
-    small_caps: false
+    type: with_full_line
     line_thickness: 0.5pt
-    vertical_space_above: 0.4cm
-    vertical_space_below: 0.3cm
+    space_above: 0.4cm
+    space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0em
+    space_between_text_based_entries: 0em
+    show_time_spans_in: []
   entries:
     date_and_location_width: 4.15cm
-    left_and_right_margin: 0.2cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.5em
-    allow_page_break_in_entries: true
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: true
     short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: ◦
-    top_margin: 0.25cm
-    left_margin: 0.4cm
-    vertical_space_between_highlights: 0.2cm
-    horizontal_space_between_bullet_and_highlight: 0.4em
-    summary_left_margin: 0cm
-  entry_types:
+    degree_width: 1cm
+    summary:
+      space_above: 0cm
+      space_left: 0cm
+    highlights:
+      bullet: ◦
+      nested_bullet: ◦
+      space_left: 0.4cm
+      space_above: 0.1cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.4em
+  templates:
+    footer: '*NAME - Page PAGE_NUMBER of TOTAL_PAGES*'
+    top_note: '*LAST_UPDATED CURRENT_DATE*'
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
     one_line_entry:
-      template: '**LABEL:** DETAILS'
+      main_column: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: "**INSTITUTION**\n*DEGREE
-        in AREA*"
-      degree_column_width: 1cm
-      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "*LOCATION*\n*DATE*"
+      main_column: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
     normal_entry:
-      main_column_first_row_template: '**NAME**'
-      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "*LOCATION*\n*DATE*"
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
     experience_entry:
-      main_column_first_row_template: "**POSITION**\n*COMPANY*"
-      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "*LOCATION*\n*DATE*"
+      main_column: |-
+        **POSITION**
+        *COMPANY*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
     publication_entry:
-      main_column_first_row_template: '#sym.dash.en **TITLE**'
-      main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
-      main_column_second_row_without_journal_template: "AUTHORS\n\
-        URL"
-      main_column_second_row_without_url_template: "AUTHORS\n\
-        JOURNAL"
-      date_and_location_column_template: DATE
+      main_column: |-
+        – **TITLE**
+        AUTHORS
+        JOURNAL
+      date_and_location_column: DATE
 locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
+  language: english
+  last_updated: Last updated in
   month: month
   months: months
   year: year
   years: years
   present: present
-  to: –
-  abbreviations_for_months:
+  month_abbreviations:
     - Jan
     - Feb
     - Mar
@@ -289,7 +326,7 @@ locale:
     - Oct
     - Nov
     - Dec
-  full_names_of_months:
+  month_names:
     - January
     - February
     - March
@@ -302,6 +339,6 @@ locale:
     - October
     - November
     - December
-rendercv_settings:
-  date: '2026-05-19'
+settings:
+  current_date: '2026-05-19'
   bold_keywords: []
