@@ -23,6 +23,14 @@
 
 # Experience
 
+## Databricks - Photon Engine, Software Engineering Intern
+
+- May 2026 – Aug 2026
+- San Francisco, CA
+- Photon
+    - Query Engine team.
+- Research on agentic code generation for query engines.
+
 ## Amazon Web Services - DBS Redshift, Software Development Engineer Intern
 
 - May 2025 – Aug 2025
@@ -50,7 +58,24 @@
 - Athens, Greece
 - *Courses*: Introduction to Programming, Programming Techniques
 
+# Mentoring
+
+- **Kevin Dong** (Masters → USC, PhD)
+- **Junhao Yang** (Undergraduate, visiting from Tongji University → Brown University, Masters)
 # Projects
+
+## Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference (under submission)
+
+- 2025 – present
+- Developed a novel coordinator-free coalescing technique that merges requests across instances so that unneeded GPU capacity can be reclaimed as load decreases.
+- Proposed an opportunistic decode KV cache transfer protocol to exploit assymetric KV cache generation (prefill/decode) to overlap data movement with computation.
+
+## Migrating Control Planes to Serverless (ongoing)
+
+- 2025 – present
+- Designed a semi-automatic migration framework that can convert existing control plane implementations to serverless ones.
+- Applied the framework to migrate the Kubernetes control plane to run completely on AWS Lambda.
+- Achieved 60% and 94% reduction in operating and idle costs respectively, while maintaining similar performance.
 
 ## [λ-trim Debloater](https://github.com/eniac/lambda-trim)
 
@@ -73,20 +98,28 @@
 
 # Publications
 
+## Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference 
+- **Spyros Pavlatos** et al.
+- Under submission
+
+## FullStackArena: Evaluating Browser Agents in Dynamic Full-Stack Environments 
+- Jiaheng Lu, Xian Wang, Shrishti Roy, Colin Zhao, Sidharth Sankhe, Chuyue Wang, Xuting Liu, **Spyros Pavlatos**, Linh Phan, Vincent Liu
+- Under submission
+
 ## λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating 
-- Spyros Pavlatos, Xuting Liu, Yuhao Liu, Vincent Liu
+- **Spyros Pavlatos**\*, Xuting Liu*, Yuhao Liu, Vincent Liu
 - ASPLOS'25
 
 ## MuCache: A General Framework for Caching in Microservice Graphs 
-- Haoran Zhang, Konstantinos Kallas, Spyros Pavlatos, Rajeev Alur, Yuhao Liu, Vincent Liu
+- Haoran Zhang, Konstantinos Kallas, **Spyros Pavlatos**, Rajeev Alur, Yuhao Liu, Vincent Liu
 - NSDI'24
 
 # Skills
 
 - Programming: C/C++, Rust, OCaml, Erlang, Python, Go, Java, JavaScript
 - Operating Systems / Platforms: Windows, Linux, AWS, GCP
-- Databases: MySQL, MongoDB, RocksDB, Redis, memcached
-- Frameworks & Tools: LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3
+- Databases: MySQL, MongoDB, Redis, memcached
+- Frameworks & Tools: Spark, LLVM, OpenMP, MPI, PyTorch, vLLM, OpenEvolve, Docker, Kubernetes, frama-c, TLA+, ns-3
 - Miscellaneous: LaTeX, Git/Github
 # Honors/awards
 
@@ -97,7 +130,7 @@
 - **Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall
 # Leadership and Outreach
 
-- **Penn CIS PhD Mentorship Program Organizer** (2023-present).
+- **Penn CIS PhD Mentorship Program Organizer** (2023-2026).
 - **Invited Panelist for Penn CIS Visit Days** (2023, 2024, 2025).
 - **Computer and Information Science Doctoral Association ([CISDA](https://penn-cisda.github.io/))**. Served in the Dean's Advisory Board (2022-2023) and as a CISDA chair (2023-2025).
 # Travel Funding

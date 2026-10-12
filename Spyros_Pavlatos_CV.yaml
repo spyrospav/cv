@@ -29,6 +29,14 @@ cv:
           - '*Thesis*: [A Test Suite for Model Checking Persistent Memory Programs](http://artemis.cslab.ece.ntua.gr:8080/jspui/handle/123456789/18415)
             *Advisor*: Kostis Sagonas'
     experience:
+      - company: Databricks - Photon Engine
+        position: Software Engineering Intern
+        location: San Francisco, CA
+        start_date: 2026-05
+        end_date: 2026-08
+        highlights:
+          - Photon - Query Engine team.
+          - Research on agentic code generation for query engines.
       - company: Amazon Web Services - DBS Redshift
         position: Software Development Engineer Intern
         location: East Palo Alto, CA
@@ -62,7 +70,26 @@ cv:
         end_date: 2021
         highlights:
           - '*Courses*: Introduction to Programming, Programming Techniques'
+    mentoring:
+      - bullet: '**Kevin Dong** (Masters → USC, PhD)'
+      - bullet: '**Junhao Yang** (Undergraduate, visiting from Tongji University → Brown University, Masters)'
     projects:
+      - name: 'Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference (under submission)'
+        start_date: 2025
+        end_date: present
+        summary: Building a System for serving large Language Models on commercial serverless platforms. 
+        highlights: 
+          - Developed a novel coordinator-free coalescing technique that merges requests across instances so that unneeded GPU capacity can be reclaimed as load decreases.
+          - Proposed an opportunistic decode KV cache transfer protocol to exploit assymetric KV cache generation (prefill/decode) to overlap data movement with computation. 
+      - name: 'Migrating Control Planes to Serverless (ongoing)'
+        start_date: 2025
+        end_date: present
+        summary: Utilizing serverless benefits, like efficient resource usage for bursty workloads and
+          automatic scaling, to build control planes for distributed systems.
+        highlights: 
+          - Designed a semi-automatic migration framework that can convert existing control plane implementations to serverless ones.
+          - Applied the framework to migrate the Kubernetes control plane to run completely on AWS Lambda.
+          - Achieved 60% and 94% reduction in operating and idle costs respectively, while maintaining similar performance.
       - name: '[λ-trim Debloater](https://github.com/eniac/lambda-trim)'
         start_date: 2024
         end_date: present
@@ -92,10 +119,27 @@ cv:
             against the test suite and reported some critical internal bugs in the tool.
         summary: Test suite for model checking persistent memory programs
     publications:
+      - title: 'Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference'
+        authors:
+          - '**Spyros Pavlatos** et al.'
+        journal: Under submission
+      - title: 'FullStackArena: Evaluating Browser Agents in Dynamic Full-Stack Environments'
+        authors:
+          - Jiaheng Lu
+          - Xian Wang
+          - Shrishti Roy
+          - Colin Zhao
+          - Sidharth Sankhe
+          - Chuyue Wang
+          - Xuting Liu
+          - "**Spyros Pavlatos**"
+          - Linh Phan
+          - Vincent Liu
+        journal: Under submission
       - title: 'λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating'
         authors:
-          - Spyros Pavlatos
-          - Xuting Liu
+          - '**Spyros Pavlatos**\*'
+          - Xuting Liu*
           - Yuhao Liu
           - Vincent Liu
         journal: ASPLOS'25
@@ -103,9 +147,9 @@ cv:
         authors:
           - Haoran Zhang
           - Konstantinos Kallas
-          - Spyros Pavlatos
+          - "**Spyros Pavlatos**"
           - Rajeev Alur
-          - Yuhao Liu
+          - Sebastian Angel
           - Vincent Liu
         journal: NSDI'24
     skills:
@@ -114,9 +158,9 @@ cv:
       - label: Operating Systems / Platforms
         details: Windows, Linux, AWS, GCP
       - label: Databases
-        details: MySQL, MongoDB, RocksDB, Redis, memcached
+        details: MySQL, MongoDB, Redis, memcached
       - label: Frameworks & Tools
-        details: LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3
+        details: Spark, LLVM, OpenMP, MPI, PyTorch, vLLM, OpenEvolve, Docker, Kubernetes, frama-c, TLA+, ns-3
       - label: Miscellaneous
         details: LaTeX, Git/Github
     honors/awards:
@@ -126,7 +170,7 @@ cv:
       - bullet: '**IEEEXtreme programming competitions**. Ranked **94/5500** (15.0), **99/3700** (14.0) and **184/4000** (13.0) worldwide.'
       - bullet: '**Bronze Medal in the Panhellenic Physics Competition Aristotle 2016**. Ranked 25th overall'
     leadership_and_outreach:
-      - bullet: '**Penn CIS PhD Mentorship Program Organizer** (2023-present).'
+      - bullet: '**Penn CIS PhD Mentorship Program Organizer** (2023-2026).'
       - bullet: '**Invited Panelist for Penn CIS Visit Days** (2023, 2024, 2025).'
       - bullet: '**Computer and Information Science Doctoral Association ([CISDA](https://penn-cisda.github.io/))**. Served in the Dean''s Advisory Board (2022-2023) and as a CISDA chair (2023-2025).'
     travel_funding:
@@ -173,14 +217,13 @@ design:
     use_icons_for_connections: true
     alignment: center
   section_titles:
-    type: with-parial-line
+    type: with-full-line
     font_size: 1.3em
     bold: true
     small_caps: false
     line_thickness: 0.5pt
     vertical_space_above: 0.4cm
     vertical_space_below: 0.3cm
-    line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
@@ -214,7 +257,7 @@ design:
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
       date_and_location_column_template: "*LOCATION*\n*DATE*"
     publication_entry:
-      main_column_first_row_template: '**TITLE**'
+      main_column_first_row_template: '#sym.dash.en **TITLE**'
       main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
       main_column_second_row_without_journal_template: "AUTHORS\n\
         URL"
@@ -260,5 +303,5 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-01-19'
+  date: '2026-05-19'
   bold_keywords: []

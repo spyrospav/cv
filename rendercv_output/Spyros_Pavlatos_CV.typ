@@ -3,7 +3,7 @@
 
 #let name = "Spyros Pavlatos"
 #let locale-catalog-page-numbering-style = context { "Spyros Pavlatos - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Jan 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in May 2026"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.3em
@@ -16,7 +16,7 @@
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.3em
-#let design-section-titles-type = "with-parial-line"
+#let design-section-titles-type = "with-full-line"
 #let design-section-titles-vertical-space-above = 0.4cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
@@ -506,6 +506,25 @@
 
 #two-col-entry(
   left-content: [
+    #strong[Software Engineering Intern]
+
+#emph[Databricks - Photon Engine]
+  ],
+  right-content: [
+    #emph[San Francisco, CA]
+
+#emph[May 2026 – Aug 2026]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Photon!!LINEBREAK!!    - Query Engine team.],[Research on agentic code generation for query engines.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Software Development Engineer Intern]
 
 #emph[Amazon Web Services - DBS Redshift]
@@ -584,8 +603,53 @@
 
 
 
+== Mentoring
+
+#one-col-entry(
+  content: [- #strong[Kevin Dong] \(Masters → USC, PhD\)],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #strong[Junhao Yang] \(Undergraduate, visiting from Tongji University → Brown University, Masters\)],
+)
+
+
 == Projects
 
+#two-col-entry(
+  left-content: [
+    #strong[Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference \(under submission\)]
+  ],
+  right-content: [
+    #emph[2025 – present]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Building a System for serving large Language Models on commercial serverless platforms.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a novel coordinator-free coalescing technique that merges requests across instances so that unneeded GPU capacity can be reclaimed as load decreases.],[Proposed an opportunistic decode KV cache transfer protocol to exploit assymetric KV cache generation \(prefill\/decode\) to overlap data movement with computation.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[Migrating Control Planes to Serverless \(ongoing\)]
+  ],
+  right-content: [
+    #emph[2025 – present]
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Utilizing serverless benefits, like efficient resource usage for bursty workloads and automatic scaling, to build control planes for distributed systems.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed a semi-automatic migration framework that can convert existing control plane implementations to serverless ones.],[Applied the framework to migrate the Kubernetes control plane to run completely on AWS Lambda.],[Achieved 60\% and 94\% reduction in operating and idle costs respectively, while maintaining similar performance.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #link("https://github.com/eniac/lambda-trim")[#strong[λ-trim Debloater]]
@@ -641,19 +705,37 @@
 == Publications
 
 #one-col-entry(content:[
-  #strong[λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating]
+  #sym.dash.en #strong[Dynamic Coalescence for Pay-as-you-go Serverless LLM Inference]
 
   #v(-design-text-leading)
-  #v(design-highlights-top-margin);Spyros Pavlatos, Xuting Liu, Yuhao Liu, Vincent Liu
+  #v(design-highlights-top-margin);#strong[Spyros Pavlatos] et al.
+
+#v(design-highlights-top-margin - design-text-leading)Under submission])
+
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(content:[
+  #sym.dash.en #strong[FullStackArena: Evaluating Browser Agents in Dynamic Full-Stack Environments]
+
+  #v(-design-text-leading)
+  #v(design-highlights-top-margin);Jiaheng Lu, Xian Wang, Shrishti Roy, Colin Zhao, Sidharth Sankhe, Chuyue Wang, Xuting Liu, #strong[Spyros Pavlatos], Linh Phan, Vincent Liu
+
+#v(design-highlights-top-margin - design-text-leading)Under submission])
+
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(content:[
+  #sym.dash.en #strong[λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating]
+
+  #v(-design-text-leading)
+  #v(design-highlights-top-margin);#strong[Spyros Pavlatos]#sym.ast.basic#h(0pt, weak: true) , Xuting Liu#sym.ast.basic#h(0pt, weak: true) , Yuhao Liu, Vincent Liu
 
 #v(design-highlights-top-margin - design-text-leading)ASPLOS'25])
 
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(content:[
-  #strong[MuCache: A General Framework for Caching in Microservice Graphs]
+  #sym.dash.en #strong[MuCache: A General Framework for Caching in Microservice Graphs]
 
   #v(-design-text-leading)
-  #v(design-highlights-top-margin);Haoran Zhang, Konstantinos Kallas, Spyros Pavlatos, Rajeev Alur, Yuhao Liu, Vincent Liu
+  #v(design-highlights-top-margin);Haoran Zhang, Konstantinos Kallas, #strong[Spyros Pavlatos], Rajeev Alur, Yuhao Liu, Vincent Liu
 
 #v(design-highlights-top-margin - design-text-leading)NSDI'24])
 
@@ -670,11 +752,11 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Databases:] MySQL, MongoDB, RocksDB, Redis, memcached]
+  content: [#strong[Databases:] MySQL, MongoDB, Redis, memcached]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Frameworks & Tools:] LLVM, OpenMP, MPI, PyTorch, Docker, Kubernetes, frama-c, TLA+, ns-3]
+  content: [#strong[Frameworks & Tools:] Spark, LLVM, OpenMP, MPI, PyTorch, vLLM, OpenEvolve, Docker, Kubernetes, frama-c, TLA+, ns-3]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -708,7 +790,7 @@
 == Leadership and Outreach
 
 #one-col-entry(
-  content: [- #strong[Penn CIS PhD Mentorship Program Organizer] \(2023-present\).],
+  content: [- #strong[Penn CIS PhD Mentorship Program Organizer] \(2023-2026\).],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
